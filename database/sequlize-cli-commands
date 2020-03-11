@@ -1,0 +1,3 @@
+sequelize model:generate --name Task --attributes customer_first_name:string,personnel_first_name:string,personnel_other_name:string,customer_last_name:string,customer_phone:string,agentId:integer,assigned:date,in_progress:date,completed:date,deferred:date,status:string,location:string,gender:string,age:integer,access_code:string,splash_page:string,mpesa:string,autoplay:string,comments:string,registration:string
+
+sequelize model:generate --name Task --attributes phone:string,password:string,personnel_first_name:string,personnel_other_name:string
